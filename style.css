@@ -1,0 +1,108 @@
+body{
+    background-color: #000000;
+opacity: 1;
+background-image: radial-gradient(#282936 0.45px, #000000 0.45px);
+background-size: 9px 9px;
+}
+
+
+
+.avatar{
+    text-align: center;
+    width:100%;
+}
+
+.avatar img{
+    margin-top: 25px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #282936;
+
+}
+
+
+.nombre{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Condensed';
+    font-size: 19px;
+}
+
+.info{
+    text-align: center;
+    color: white;
+    width:90%;
+    margin: 0 auto;
+    font-family: 'Roboto';
+}
+
+.contenedor-redes{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.red{
+    padding: 10px;
+}
+
+i{
+    width: 30px;
+}
+
+.red a{
+    
+    padding: 10px 100px;
+    border-radius:50px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background-color: #282936;
+    font-family: 'Roboto';
+    transition: padding 0.5s;
+    transition: font-size 0.5s;
+}
+
+.red a:hover {
+    font-size: 20px;
+    padding: 15px 125px;
+}
+
+
+.footer{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto';
+}
+
+
+@media only screen and (min-width: 410px){
+
+
+    .avatar img{
+        width:150px;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px){
+
+
+    .avatar img{
+        width:200px;
+        transition:  width 0.5s;
+    }
+
+    .avatar img:hover{
+        width: 250px;
+    }
+
+
+    
+
+
+}
